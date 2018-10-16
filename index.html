@@ -62,6 +62,56 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-10-16" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/16/10-16/" class="article-date">
+  <time datetime="2018-10-16T13:19:29.000Z" itemprop="datePublished">2018-10-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/16/10-16/">10.16</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="10-16"><a href="#10-16" class="headerlink" title="10.16"></a>10.16</h3><p><strong>公司任务</strong></p>
+<ul>
+<li>上午根据夜盘数据跑了两次交易重演，发现数据只有TOP_NET_POSITION这个表有问题，其他都没有问题，即使这个表有问题，也只是数据量少了三条</li>
+<li>这次没有出错的原因是，启动TE并用自动化下单之后，中间没有跳跃时间，而是让他自动过度到闭市。</li>
+<li>下午的时候，启动TE再次下单，这次下的是全量的，包括夜盘和日盘。今天晚上跑完，然后启动脚本进行测试。</li>
+<li>下午的时候，对脚本进行了加工，使得更加的简便，能够直接通过配置文件修改其他配置文件中的内容，也就是可以直接通过修改自动化测试的配置文件就可以运行起来相关的所有系统。</li>
+<li>起来系统之后，有的系统没有进行关闭，所以又提供了一个关闭相关系统的脚本stop。</li>
+</ul>
+<p><strong>明日计划</strong></p>
+<ul>
+<li>查看运行结果，如果发现结果正确，就不再运行交易重演，直接完善之后提交即可。</li>
+<li>学习redis</li>
+<li>准备答辩材料。</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/10/16/10-16/" data-id="cjnbr9cfz00019outrp0q072i" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-10-15" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/10/15/10-15/" class="article-date">
@@ -99,7 +149,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/15/10-15/" data-id="cjnadezmb0000wwutwwumro2b" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/15/10-15/" data-id="cjnbr9cfh00009outjkckwcmj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -144,7 +194,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/15/hello-world/" data-id="cjnadezmb0001wwut5rpfshlf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/15/hello-world/" data-id="cjnbr9cfz00029outbub9vdr4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -183,6 +233,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/10/16/10-16/">10.16</a>
+          </li>
         
           <li>
             <a href="/2018/10/15/10-15/">10.15</a>
